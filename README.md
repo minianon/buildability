@@ -96,3 +96,11 @@ have a `data/pass1/<id>.json`, so a rerun after a rate limit fills the gaps.
   5 sampled docs were unreachable (404 / redirect / DNS) and are marked `UNVERIFIABLE`.
 - Low-confidence rows (e.g. `fanbasis`, `iPayX`, `Waterfall.io`, `Consensus`) are marked
   as such — "gated / no public API, with evidence" is a valid finding, not a failure.
+
+## Design docs
+
+| Doc | What's inside |
+|---|---|
+| [High-Level Design](docs/hld.md) | Architecture, components, data flow, tech choices, deployment |
+| [Low-Level Design](docs/lld.md) | Modules, data models, APIs and functions, key sequences |
+
